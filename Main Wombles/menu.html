@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Menu Wombles</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="menu.css">
+  </head>
+  <body>
+    <header class="header">
+    <div class="address" id="address"  style="display: inline-block;">
+      <p> &emsp;  <i class="fa-solid fa-location-dot"></i> &emsp; 158 Enterprise road, Highlands, Harare, Zimbabwe</p></p>
+</div>
+<div class="number" id="number"  style="display: inline-block;">
+  <p> <i class="fa-solid fa-phone"></i> &emsp; (024) 2497768</p>
+
+</div>
+<div class="email" id="email"  style="display: inline-block;">
+  <p> <i class="fa-regular fa-envelope"></i> &emsp; bookings@khayanyama.com</p>
+
+</div>
+
+    </header>
+    <nav>
+    <div class="nav-bar">
+    <a href="index.html"><img src="img1/logo.jpg" alt=""></a>
+    <input type="checkbox" id="check">
+    <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+    <div class="nav">
+      <ul class="menu-list">
+        <li> <a href="index.html">Home</a> </li>
+        <li> <a href="about.html">About Us</a> </li>
+        <li> <a href="menu.html">Menu</a> </li>
+        <li> <a href="contact.html">Contact-Us</a> </li>
+      </ul>
+      <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+    </div>
+    </div>
+    </nav>
+    <section class="home-section">
+        <div class="home">
+          <div class="row">
+            <h1>Menu</h1>
+
+          </div>
+
+        </div>
+
+      </section>
+      <!---menu start-->
+      <section class="menu-section">
+    <div class="container">
+    <ul class="menu">
+      <li id="main" onclick="filterMenu('main')">Main</li>
+      <li id="salads" onclick="filterMenu('salads')">Salads</li>
+      <li id="starters" onclick="filterMenu('starters')">Starters</li>
+      <li id="dessert" onclick="filterMenu('dessert')">Desserts</li>
+      <li id="cocktails" onclick="filterMenu('cocktails')">cocktails</li>
+      <li id="wine" onclick="filterMenu('wine')">Wine</li>
+      <li id="bar-menu" onclick="filterMenu('bar-menu')">Bar Menu</li>
+    </ul>
+
+    <ul class="menu-items">
+      <li class="main show">
+        <h1> Poultry</h1>
+        <h3>Oven Roasted Duck <span>$35</span> </h3>
+        <p>Duck oven roasted with an orand <b>OR</b> mandarin sauce or with a black cherry maderia and red wine sauce.</p>
+        <br>
+        <h3>TRIO Char Grilled Quails <span>$35</span> </h3>
+        <p>Three <u> <b>PARTIALLY DEBONED</b> </u>quails chargrilled with olive oil, coarse salt and fresh lemon juice  </p>
+        <br>
+        <h3>CHICKEN	SCHNITZEL <span>$18</span> </h3>
+        <p>Duo	of	crumbed	chicken	breasts,	pan	fried	and	served	with	a	SEPARATE homemade	creamed	Dijon
+        mustard	sauce	and	chips.</p>
+<br>
+<h3>CHICKEN	KEBABS <span>$22</span> </h3>
+<p>Two	chargrilled	chicken	kebabs	served	with	a	choice	of	a	lemonata	OR	peri	peri	sauce.</p>
+<br>
+<hr>
+<br>
+<h1>FISH </h1>
+<br>
+<br>
+
+<h3>FISH	OF	THE	DAY <span>SQ</span> </h3>
+<p>Today’s grilled	fillet	of	fish	topped	with	extra	virgin	olive	oil,	herbs	and	fresh	lemon.</p>
+<br>
+<h3>PRAWNS <span>$35</span> </h3>
+<p>SIX LARGE	grilled prawns	in	the	shell served	with	separate	garlic butter	and	peri	peri	sauce.</p>
+<br>
+<br>
+<hr>
+<h1>PASTA</h1>
+<h3>MEDITERRANEAN SPAGHETTI <span>$28</span> </h3>
+<p>Spaghetti	cooked	with	fresh	tomato,	garlic, capers,	olives, parsley and	olive	oil,	with	a	touch	of	lemon
+<b>(ANCHOVIES	OPTIONAL.)</b></p>
+<br>
+<h3>MUSHROOM	RISOTTO <span>$28</span> </h3>
+<p>Mushrooms, celery, onions	and	Arborio	rice	cooked	in	a	homemade	vegetable	stock.</p>
+<br>
+<br>
+<hr>
+<h3><b>SOUP	OF	THE	DAY <span>$10</span> </b></h3>
+  <p>Please	ask	your	waiter	the	choice	of	today’s	soup.</p>
+  <br>
+  <h3>PLEASE NOTE THAT OUR	WELL	DONE	STEAKS	TAKE	A	MINIMUM	OF	30 MINUTES	TO
+PREPARE – THANK	YOU.</h3>
+<br>
+<h3> NO	SHARING	OF	MAIN	COURSE	MEALS. </h3>
+<h3>PLEASE	NOTE	THAT	WE	ARE	NOT	RESPONSIBLE	FOR	YOUR	PERSONAL	ITEMS.</h3>
+
+      </li>
+      <li class="main show">
+<br>
+<br>
+        <h1><u>Steak </u></h1>
+    <p>  <b>A	selection	of	seasonal	vegetables	will	be	served	complimentary	with	your	main
+meal</b> </p>
+<br>
+<br>
+<h3>CHARGRILLED	STEAKS</h3>
+
+<p>Fillet &emsp; &emsp; &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 260g &nbsp;<span>$27</span> </p>
+<hr>
+<br>
+<br>
+<p>Fillet &emsp; &emsp;  &emsp; &emsp; &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 400g &nbsp;<span>$37</span> </p>
+<hr>
+<br>
+<br>
+<p>Rump &emsp; &emsp; &emsp; &emsp;  &nbsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 350g &nbsp;<span>$32</span> </p>
+<hr>
+<br>
+<br>
+<p>Rump &emsp; &emsp; &emsp; &emsp; &nbsp;  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 650g &nbsp;<span>$47</span> </p>
+<hr>
+<br>
+<br>
+<p>Man Size	Rump  &emsp;&emsp;&emsp;&emsp;&emsp; &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;1KG &nbsp;<span>$65</span> </p>
+<hr>
+<br>
+<br>
+<p>Sirloin  &emsp; &emsp; &emsp; &emsp;&emsp; &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 350g &nbsp;<span>$28</span> </p>
+<hr>
+<br>
+<br>
+<p>T-bone &emsp;&emsp; &emsp; &emsp;&emsp;&emsp; &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; 600g   &nbsp;<span>$35</span> </p>
+<hr>
+<br>
+<br>
+<p>Prime	Rib &emsp; &emsp; &emsp; &emsp;&emsp; &nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  600g &nbsp; <span>$35</span> </p>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<hr>
+<h3><u>SAUCES</u> <span>$5</span></h3>
+<p>	<b>Black	pepper,	mushroom,	blue	cheese,	crispy	garlic,	creamy	garlic OR monkeygland  </b> </p>
+<br>
+<hr>
+<br>
+<h3>EXTRAS/SIDE	ORDERS	TO	BE	CHARGED</h3>
+<br>
+<br>
+<p>Chips,	mashed	potato,	sadza and rice to be offered	<u><b>COMPLIMENTARY</b></u> with your meal. </p>
+<p>Fried	Mushrooms	<b>OR</b> rice <span>$5</span> </p>
+<p>Onion	Rings	<b>OR</b> rice <span>$5</span> </p>
+<p>Creamed	Spinach	<b>OR</b> rice <span>$5</span> </p>
+<p>Traditional	Gravy	for	Sadza	<b>OR</b> rice <span>$3</span> </p>
+<br>
+<br>
+<br>
+<hr>
+<br>
+<h3> GAMMON	(PORK)	STEAK <span>$25</span> </h3>
+<p>Grilled	gammon	steak,	sweet	chilli	honey	glaze,	served	with pineapple.</p>
+<br>
+<h3> BEEF SCHNITZEL <span>$27</span> </h3>
+<p>Lightly	crumbed	medallions	of	Fillet,	pan-fried,	topped	with	sliced	boiled	egg	and	lemon,	capers	and
+anchovy	butter.</p>
+<br>
+<h3> BEEF	STROGONOFF<span>$25</span> </h3>
+<p>Strips	of	Beef	Fillet	cooked	in	cream, paprika, tomato	and	mushrooms	on	rice	OR mashed	potato	– an
+old	time	favourite.</p>
+<br>
+<h3>STEAK	TARTARE <span>$32</span> </h3>
+<p> <b> <u>RAW</u> </b> seasoned	fillet	steak	with	fresh	herbs,	tabasco,	Worcestershire	sauce	and	a	touch	of	cognac	and
+olive	oil	served	with	capers,	gherkins,	chopped	onions,	egg	yolk	and	anchovies.</p>
+<br>
+
+
+      </li>
+      <li class="salads show">
+        <h1>Salads</h1>
+        <p>Prices depend on sizes Large or Small</p>
+        <h3>Large $18</h3>
+        <h3>Small $12</h3>
+        <br>
+        <h3> BLUE	CHEESE	SALAD</h3>
+        <p> ICEBERG	LETTUCE,	tomato,	cucumber	and	onion	topped	with	a	light	blue	cheese	dressing
+      a	grated	blue	cheese.</p>
+        <br>
+        <br>
+        <h3> HOUSE MIXED	SALAD</h3>
+        <p>A	tossed	salad	with	ICEBERG	LETTUCE,	tomato,	onions,	cucumber,	avocado,	olives	and
+      Danish	feta	with	a	creamed salad	dressing</p>
+      <br>
+      <br>
+      <h3>CAESAR	SALAD</h3>
+      <p>ICEBERG	LETTUCE tossed	with	anchovies,	capers,	boiled	egg,	fried	bacon,	croutons,
+      shavings	of	parmesan	cheese	and	Caesar	mayonnaise	dressing</p>
+      <br>
+      <br>
+
+      </li>
+      <li class="starters show">
+        <br>
+        <hr>
+        <h1> Starters</h1>
+        <br>
+        <br>
+        <h3>GYPSY	SPITS <span>$12</span> </h3>
+        <p>Button	mushrooms	wrapped	in	bacon,	crisped	under	the	grill	and	topped	with	garlic	butter.</p>
+        <br>
+        <h3>MARROW	BONES <span>$11</span> </h3>
+        <p>Marrow	bones	on	toast	with	a	bone	marrow	jus	and	cracked	black	pepper</p>
+        <br>
+        <h3>PRAWN	AND	MUSHROOMS <span>$15</span> </h3>
+        <p>Six	button	mushrooms	topped	with	prawns,	garlic	butter	and	finished	off	under	the	grill.</p>
+        <br>
+        <h3>PERI-PERI	CHICKEN	LIVERS <span>$11</span> </h3>
+        <p>Pan	fried	chicken	livers	in	a	homemade	PERI sauce.</p>
+        <br>
+        <h3>PRAWN	COCKTAIL <span>$15</span> </h3>
+        <p>Prawns mixed	with	lettuce	and	avocado topped	with	a	light,	homemade	cocktail	sauce.</p>
+
+     </li>
+      <li class="starters show" id="starterright">
+        <h3>CALAMARI <span>$15</span> </h3>
+        <p>Grilled	calamari	tubes	with	a	lemon butter	sauce	OR cajun	style</p>
+        <br>
+        <h3>GOATS	CHEESE	MOUSSE<span>$12</span> </h3>
+        <p>Warm	goats	cheese	mousse	topped	with	a	tapenade	of	black	olives	and	capers	on	a	pickled	sliced
+cucumber</p>
+        <br>
+        <h3>NORWEGIAN SMOKED	SALMON <span>$15</span> </h3>
+        <p>Oak	smoked Norwegian salmon	with	traditional	garnishes	of	capers,	onions	and	homemade	mayonnaise.</p>
+        <br>
+        <h3>DUCK	LIVER	PATÉ <span>$13</span> </h3>
+        <p>Quenelles	of	duck	liver	paté with	black	cherry	compote,	served	with	toast.</p>
+        <br>
+        <h3>ESCARGOTS <span>$12</span> </h3>
+        <p>Snails cooked	in	a	traditional	garlic	and	parsley	butter</p>
+
+      </li>
+      <li class="dessert show">
+        <br>
+        <hr>
+        <h1>Dessert</h1>
+        <br>
+        <h3>PAVLOVA <span>$10</span>  </h3>
+        <p>A	homemade	meringue	topped	with	seasonal	fresh	fruits	and	cream.</p>
+        <br>
+        <h3>WOMBLES	STYLE	CRÈME BRÛLÉE <span>$10</span>  </h3>
+        <p>Baked	cream	and	eggs	topped	with	caramelised	sugar	SERVED	IN	A	GLASS	and	topped	with	fresh
+       berries.</p>
+        <br>
+        <h3>CRÉPE	SUZETTES <span>$12</span>  </h3>
+        <p>Light	crépes simmered	in	fresh	orange	juice	and	Cointreau	and	flambéed with	brandy,	served	with	a
+      scoop	of	vanilla	ice	cream.</p>
+        <br>
+        <h3>CRÈME CARAMEL <span>$10</span>  </h3>
+        <p>Baked	custard	crème caramel	topped	with	a	spun	sugar	basket</p>
+      </li>
+      <li class="dessert show">
+        <br>
+        <h3>DUO	OF	HOME-MADE	SORBETS	(DAIRY	FREE)<span>$12</span>  </h3>
+        <p>A	duo of	homemade	fresh	fruit	sorbets	– mixed	berry	and	passionfruit	on	fruit	coulis.</p>
+        <br>
+        <h3>LEMON	MERINGUE	ICE	CREAM <span>$10</span>  </h3>
+        <p>Homemade	frozen	lemon	meringue	ice	cream.</p>
+        <br>
+        <h3>ICE	CREAM	AND	BAR-ONE	CHOCOLATE	SAUCE <span>$10</span>  </h3>
+        <p>Vanilla	ice	cream	and	Hot	chocolate	sauce.</p>
+        <br>
+        <h3>HOMEMADE STEAMED PUDDING<span>$10</span>  </h3>
+        <p>A traditional	hot	sponge	pudding, topped	with	a	caramelised	custard	sauce	and served	with	a	scoop
+of	vanilla	ice	cream	OR	cream.</p>
+<br>
+       <h3>WOMBLES	ROSEWATER	ICE CREAM (Subject	to	Availability) <span>$14</span> </h3>
+       <p>Two	scoops	of	rosewater	ice	cream	filled	with	Turkish	delight,	nougat,	chocolate	and	rose	petals,
+topped	with	a	raspberry	coulis.</p>
+      </li>
+
+      <li class="cocktails show">
+        <hr>
+        <h2><i class="fa-solid fa-star"></i>PLEASE	ASK	YOUR	WAITER	FOR	OUR	SELECTION	OF	COFFEES,	TEAS,
+LIQUERS,	SINGLE	MALT	WHISKIES,	COGNACS	AND	DESSERT	WINES.</h2>
+   <h3>Our creations combine some great classics and new creations.</h3>
+   <h1>COCKTAILS</h1>
+   <br>
+   <h3>Mojito <span>$8</span> </h3>
+   <p>Bacardi rum muddled with fresh lime, mint and sugar topped
+   with a splash of soda.</p>
+   <br>
+   <br>
+   <h3>BLOODY MARY <span>$8</span> </h3>
+   <p>Vodka spiced up with tomato juice and tailored to your
+request.</p>
+<br>
+<br>
+<h3>CHAMPAGNE COCKTAIL <span>$10</span> </h3>
+<p>Graham Beck Brut with sugar, brandy, angostura bitters and a
+cherry.</p>
+<br>
+<br>
+<h3>APEROL SPRITZ	 <span>$8</span> </h3>
+<p>A traditional and refreshing Italian aperitif, enjoyable anytime
+of the day.</p>
+<br>
+<br>
+<h3>COSMOPOLITAN <span>$10</span> </h3>
+<p>Vodka paired with cointreau, fresh lime and cranberry juice.</p>
+<br>
+<br>
+<h3>CLASSIC MARTINI <span>$8</span> </h3>
+<p>Gin with a hint of martini extra dry, garnished with an olive.</p>
+<br>
+<br>
+<h3> ESPRESSO MARTINI<span>$10</span> </h3>
+<p>Vodka and Kahlua shaken with a shot of espresso.</p>
+
+      </li>
+      <li class="cocktails show">
+        <h3> STRAWBERRY DAQUIRI<span>$10</span> </h3>
+        <p>Strawberries blended with ice, white rum, sugar syrup & a
+        dash of lime.</p>
+        <br>
+        <br>
+        <h3> LONG ISLAND ICE TEA<span>$12</span> </h3>
+        <p>Vodka, white rum, silver tequila, triple sec & sugar syrup,
+        mixed with coke & a squeeze of fresh lemon.</p>
+        <br>
+        <br>
+        <h3> MARGARITA <span>$8</span> </h3>
+        <p>Tequila & triple sec mixed with fresh lime juice – an old
+  time favourite.</p>
+  <br>
+  <h3>PIMMS COCKTAIL <span>$10</span> </h3>
+  <p>A light & refreshing drink – pimms, lemonade & gingerale
+served with sliced cucumber, orange & fresh mint. </p>
+  <br>
+  <br>
+  <h3> SEX ON THE BEACH <span>$10</span> </h3>
+  <p>Vodka & peach schnapps, shaken together with orange
+juice & cranberry juice – ooh lah lah!</p>
+  <br>
+  <h3> NEGRONI <span>$10</span> </h3>
+  <p>A delicate mix of gin, red vermouth and campari served with a
+slice of orange and lots of ice.</p>
+  <br>
+  <br>
+  <h3> OLD FASHIONED<span>$8</span> </h3>
+  <p>Whiskey muddled with sugar syrup and a dash of bitters served with a slice of orange.</p>
+  <br>
+  <br>
+  <h3> CHILLI LIME MARGARITA<span>$10</span> </h3>
+  <p>Fresh lemon juice shaken together with tequila silver, triple sec
+and a few drops of tabasco.</p>
+
+
+      </li>
+<li class="cocktails show">
+  <hr>
+  <h1>Shooters</h1>
+  <br>
+  <br>
+  <h3> STRAWBERRY LIPS <span>$4</span> </h3>
+  <br>
+  <br>
+  <h3> SAMBUCA<span>$4</span> </h3>
+  <br>
+  <br>
+  <h3> JAGERMEISTER<span>$5</span> </h3>
+  <br>
+  <br>
+  <h3>LIQUID COCAINE <span>$4</span> </h3>
+  <br>
+  <br>
+  <h3>JAGERBOMB <span>$7</span> </h3>
+  <br>
+  <br>
+</li>
+<li class="cocktails show">
+  <h3>TEQUILA <span>$5</span> </h3>
+  <p>silver & gold	</p>
+  <br>
+  <h3>BLOW JOB  <span>$5</span> </h3>
+  <p>amaretto, baileys & whipped cream</p>
+  <br>
+  <h3>JELLY BABY  <span>$5</span> </h3>
+  <p>vodka, peach schnapps,rum & blue curacao.</p>
+  <br>
+  <h3>SOWETAN TOILET  <span>$5</span> </h3>
+  <p>amarula, banana liqueur & chocolate liqueur</p>
+  <br>
+  <h3>SPRINGBOK <span>$5</span> </h3>
+  <p>amarula & peppermint liqueur.</p>
+ </li>
+      <li class="wine show">
+       <h1>RED	WINES</h1>
+       <br>
+       <br>
+       <h2>RED	BLENDS <span>John	Platter	Ratings</span> </h2>
+       <br>
+       <h3> Ridgeback	Lion	Hound	Blend	2020 (Paarl) <span> $30</span> </h3>
+       <p>An	intense,	juicy	red	blend	of	dark	cherries,	plum	and	liquorice	with	a	hint
+        of cigar	box	and	wood	spice.	Creamy	midpalate	evolves	to a long
+        savory	finish</p>
+       <br>
+       <br>
+       <h3> Rupert	&	Rothchild	Classique	2018 (Paarl/Wellington) <span>$60</span> </h3>
+       <p>Ripe	black	cherry	and	cassis	fruit	with aromas	of	cedar	wood and	spice.
+        Flavours	of	blackcurrant,	liquorice	and	dark	chocolate	with	a long	finish.</p>
+       <br>
+       <br>
+       <h3> The	Chocolate	Block (2020)	(Franshhoek/Swartland) <span>$90</span> </h3>
+       <p>Bursts	with	raspberries,	allspice	underscored	by	dark	fruit	and	floral	incense.
+             Dark	chocolate,	smoky	minerality	and	oak	spice	on	the	palate.</p>
+       <br>
+       <br>
+       <h3>  Hermanuspietersfontein	Kleinboet 2018 (Hermanus) ****
+         <span>$80</span></h3>
+       <p>Blackcurrant,	black	olive,	lavender	and	cashew	abound	in	this	medium
+bodied Bordeaux.	Tannins	well	rounded	with	a	classically	dry	finish.</p>
+       <br>
+       <br>
+       <h3> Boschendal	Black	Angus	2018 (Stellenbosch) <span>$110</span> </h3>
+       <p>Black	pepper	and	cherry	flavours	on	the	nose,	this	wine	is	smooth	and	full
+    bodied	with	a	rich	and	complex	palate</p>
+       <br>
+       <br>
+       <h2> CABERNET	SAUVIGNON<span></span> </h2>
+       <br>
+       <h3> Ernie	Els	– The	Big	Easy	2020 (Stellenbosch) ***½
+         <span>$30</span>
+       </h3>
+       <p>Medium	bodied,	loaded	with	raspberries	and	cherries,	sprinkled	with
+dried	goji	berries and	soft	creamy	oak on	the	finish.</p>
+       <br>
+       <br>
+       <h3> Meerlust	2017/2018 (Stellenbosch) ***½
+         <span>$90</span>
+       </h3>
+       <p> Usual	classic	notes	of	dark	berry	fruit	and	cigar	box	with	plenty	of	fruit	depth
+        and	a	hint	of	herbal	quality.</p>
+       <br>
+       <br>
+       <h2> SHIRAZ <span></span> </h2>
+       <br>
+       <h3> Diemersdal	2020 (Durbanville) ***½
+         <span>$40</span>
+       </h3>
+       <p> This	shiraz	offers	a	delicate	balance	of	berries,	green	and	red	peppercorns
+          combined	with	a	smokiness	and	well	balanced	tannins.</p>
+       <br>
+       <br>
+       <h3> Vergelegen	Premium	2019 (Stellenbosch) ****
+         <span>$50</span>
+       </h3>
+       <p> Exudes	ripeness	and	sunshine,	with	meaty	plum	fruit	and	a	silky	texture</p>
+       <br>
+       <br>
+       <h3> Rust en	Vrede	Syrah	2019 (Stellenbosch) ****
+         <span>$70</span>
+
+        </h3>
+       <p>Intense	black	fruit	with	plush,	velvet	tannins.	Ripe	New	World	styling	placing
+power	ahead	of	subtlety	without	looking	cellar’s	hallmark	sophistication.	</p>
+       <br>
+       <br>
+       <h2>PINOTAGE </h2>
+       <br>
+       <h3> Beyerskloof	2020 (Stellenbosch) ***½
+         <span>$30</span>
+       </h3>
+       <p>This	wine	boasts	as	being	South	Africa’s	most	popular	Pinotage	and	it’s	no
+wonder.	Always	ticks	the	boxes.	Smooth,	fruity	and	plumy	with	a	touch	of
+oak(20%)</p>
+       <br>
+       <br>
+       <h2> MERLOT  </h2>
+       <br>
+       <h3> Hartenberg	2017 (Stellenbosch) ***½
+         <span>$45</span>
+        </h3>
+       <p>Red	berries,	cranberries,	soft	dried	plums	and	a	fynbos	herbaceousness	on	the
+nose.	Generous	palate	with	red	fruits,	cashmere	clad	tannins	all	interwoven
+with	perfect	harmony.</p>
+       <br>
+       <br>
+       <h3> Ken	Forrester Reserve 2018 (Stellenbosch) ***½
+         <span>$50</span>
+       </h3>
+       <p> Soft,	ripe	merlot	with	added	Cabernet,	Franc,	cab	sauv	and	petit	verdot for
+body	and	structure.</p>
+       <br>
+       <br>
+       <h2> PINOT	NOIR </h2>
+       <br>
+       <h3> Iona	Mr	P	2021 (Elgin)
+
+         <span>$40</span>
+        </h3>
+       <p> Mr	P	is	fresh	with	vibrant	acidity	and	a	long	textured,	savory	finish.	Beautiful
+ripe	strawberries,	raspberries,	cranberries	and	sweet	spice	on	the	nose,	with
+subtle	hints	of	forest	floor	and	wild	mushrooms.	</p>
+       <br>
+       <br>
+       <h3> Haute	Cabriére	Reserve	2018 (Franschhoek) ****
+         <span>$60</span>
+       </h3>
+       <p>Enjoy	red	berries	and	cedar	wood on	the	nose,	with	hints	of	truffle,	sour
+cherries	and	spice	on	the	palate.</p>
+       <br>
+       <br>
+       <h2> ROSÉ </h2>
+       <br>
+       <h3> 1659	Natural	Sweet	Rosé NV (Western	Cape)
+      <span>$30</span>
+        </h3>
+       <p> Playful	aromas	of	sweet	strawberries	and	fresh	raspberries.	An	easy	drinking	wine,
+fruity	and	soft,	with	a	smooth	and	sweet	finish.</p>
+       <br>
+       <br>
+       <h3> Fairview	Goats	do	Roam	2021 (Paarl) ***½
+         <span>$40</span>
+       </h3>
+       <p> Sprightly	and	characterful	Mediterranean	style dry	rosé, has a leesy texture
+and weight, with an appealing red berry fruit from Grenache, Shiraz,
+Mourvèdre.</p>
+       <br>
+       <br>
+       <h1>White wine</h1>
+       <br>
+       <h2>SAUVIGNON	BLANC &	WHITE	BLENDS</h2>
+       <br>
+       <h3> Buitenverwachting	Buiten	Blanc	2021 (Constantia) ***½
+         <span>$30</span>
+       </h3>
+       <p> This	full	bodied	cuvee	offers	ripe	gooseberry	and	grassy	characters	with
+       slight	hints	of	tropical	fruit..</p>
+       <br>
+       <br>
+       <h3>Haute	Cabriére Pinot	Chardonnay	2021 (Franschhoek) ****
+         <span>$35</span>
+       </h3>
+       <p> Faintly	pink	hued,	light,	fresh	and	elegant	with	savoury,	faintly	tannic,
+sweet-sour	edge.</p>
+       <br>
+       <br>
+       <h3>Klein	Zalze	Vineyard	Sauvignon	Blanc	2022 (Lutzville) ***½
+         <span>$35</span>
+       </h3>
+       <p> Wet	stone,	green	pepper	and	zingy	gooseberry	on	well	balanced	lively	vintage.</p>
+       <br>
+       <br>
+       <h3> Ken	Forrester	Old Vine	Chenin	Blanc	(2021)	(Stellenbosch) ***½
+         <span>$40</span>
+       </h3>
+       <p> This	wine	shows	lovely	complexity	with	a	mix	of	tangy	grassy	notes,	fig	leaf,
+peach	and	nectarine	nuances	with	a	cool	climate	elegance.	</p>
+       <br>
+       <br>
+       <h3>Klein	Constantia	Sauvignon	Blanc	2021 (Constantia) ****
+         <span>$45</span>
+       </h3>
+       <p> Aromas	of	citrus	and	stone	fruit	fill	the	nose.	The	palate	is	richly	textured,
+fresh	and	complex	with	a	bold	minerality	– a	pure	expression	of	Sauvignon
+Blanc	with	a	long	crisp	flinty	conclusion.</p>
+       <br>
+       <br>
+       <h3>Iona	Sauvignon	Blanc	2021 (Elgin) ***½
+         <span>$50</span>
+       </h3>
+       <p> Beautiful	purity	of	limes	and	ripe	gooseberry,	with	tropical,	floral	and	fine
+herbal	notes,	ruby	grapefruit	and	white	pear	drop	on	the	finish.	This	is	a	cool
+climate	Sauvignon	Blanc	-		vibrant,	mineral,	elegant,	balanced	and	delicate,
+with	a	long,	layered	and	complex	finish.</p>
+       <br>
+       <br>
+       <h3> Springfield	Life	from	Stone	2021 (Robertson) ***½
+         <span>$55</span>
+       </h3>
+       <p> Life	from	Stone	derives	its	name	from	the	incredibly	rocky	soil	in	which	it	is
+     grown.	Every	year	the	vineyard	battles	against	nature	in	order	to	produce
+      highly	concentrated	and	powerful	wines	with	a	flinty,	mineral	character	true
+         to	the	quartz	rock	in	which	it	is	grown.</p>
+       <br>
+       <br>
+       <h2>OFF	DRY/SWEET</h2>
+       <br>
+       <h3> Angels	Tears Moscato Chenin	natural	sweet	2021 (Western	Cape)
+        <span>$30</span>
+       </h3>
+       <p>This	darling	of	the	Angels	Tears	range	is	deliciously	fruity with	succulent	stone	fruit,
+         litchi	and	citrus,	enlivened	by	hints	of	floral	and	spicy	Muscat	notes.</p>
+       <br>
+       <br>
+       <h2>CHARDONNAY</h2>
+       <br>
+       <h3> Fairview	2020 (Darling/Paarl) ****
+         <span>$30</span>
+       </h3>
+       <p>A	classic,	restrained	Chardonnay	with	subtle	oaking.	The	palate	abounds	with
+soft	spice,	fresh	fruit	and	minerality	with	great	length	and	complexity.</p>
+       <br>
+       <br>
+       <h3>Fat	Bastard	2021 (various	areas) ***½
+         <span>$40</span>
+       </h3>
+       <p>Brilliantly	named	after	the	full,	rich	and	ripe	flavours	found	from	partial
+barrel	fermentation.</p>
+       <br>
+       <br>
+       <h1>MÉTHODE	CAP	CLASSIQUE</h1>
+       <br>
+       <h3>Graham	Beck	Brut	NV (Robertson) ****
+         <span>$45</span>
+       </h3>
+       <p>Brilliantly	named	after	the	full,	rich	and	ripe	flavours	found	from	partial
+barrel	fermentation.</p>
+       <br>
+       <br>
+       <h3>Graham	Beck	Bliss	Nectar	Rosé (Robertson)
+             <span>$45</span>
+       </h3>
+       <p>Pieter	Ferreira	has	been	making	top	sparkling	wines	– this	is	his	new	offering
+that	is	not	as	dry	as	most	of	the	others.</p>
+       <br>
+       <br>
+       <h3>Pongraçz	NV ****
+         <span>$50</span>
+       </h3>
+       <p>A	fine	aroma	and	yeastiness	on	the	nose,	followed	by	a	rich	complexity,
+finesse	and	lingering	aftertaste.</p>
+       <br>
+       <br>
+       <h3>Proseco	– Casa	Farive	Cuvee	Brut	(Italy)
+    <span>$50</span>
+       </h3>
+       <p>Dry	and	fresh	with	a	pleasantly	harmonic	and	persistent	finish.</p>
+       <br>
+       <br>
+       <h1>IMPORTED	CHAMPAGNE</h1>
+       <br>
+       <h3>Moët	et	Chandon	Brut	Imperial	NV
+         <span>$240</span>
+       </h3>
+       <p> Enticingly	aromatic,	exuberantly	frothy	and	elegantly	chic.</p>
+       <br>
+       <br>
+       <h3>Moët	et	Chandon	NECTAR	Imperial	NV
+         <span>$260</span>
+       </h3>
+       <p>A	delicious	expression	of	the	Moët	&	Chandon	style,	a	style	distinguished	by	its
+Bright	fruitiness,	its	seductive	palate	and	its	elegant	maturity.</p>
+       <br>
+       <br>
+       <h3>Veuve	Clicquot	Yellow	Label	NV
+        <span>$280</span>
+       </h3>
+       <p>Aromas	of	brioche	and	citrus	accompany	the	palates	refined,	refreshing	fruit
+and	vanilla	flavours.	Delicious	long	finish.</p>
+       <br>
+       <br>
+              <h2>	PLEASE	NOTE	THAT	VINTAGES	ARE	SUBJECT	TO	CHANGE</h2>
+
+
+      </li>
+      <li class="wine show">
+        <hr>
+        <h3><i class="fa-solid fa-star"></i>  &nbsp; WINE	BY	THE	GLASS 250	ml Glass</h3>
+        <hr>
+        <br>
+        <h3> Ernie	Els	– The	Big	Easy	2020 (Stellenbosch) ***½
+          <span>$10</span>
+        </h3>
+        <p>Medium	bodied,	loaded	with	raspberries	and	cherries,	sprinkled	with
+        dried	goji	berries and	soft	creamy	oak on	the	finish.</p>
+        <br>
+        <br>
+        <h3> Beyerskloof	2020 (Stellenbosch) ***½
+          <span>$10</span>
+        </h3>
+        <p>This	wine	boasts	as	being	South	Africa’s	most	popular	Pinotage	and	it’s	no
+ wonder.	Always	ticks	the	boxes.	Smooth,	fruity	and	plumy	with	a	touch	of
+ oak(20%)</p>
+ <br>
+ <br>
+ <h3> Ridgeback	Lion	Hound	Blend	2020 (Paarl) <span> $10</span> </h3>
+ <p>An	intense,	juicy	red	blend	of	dark	cherries,	plum	and	liquorice	with	a	hint
+  of cigar	box	and	wood	spice.	Creamy	midpalate	evolves	to a long
+  savory	finish</p>
+  <br>
+  <br>
+  <h3> Rupert	&	Rothchild	Classique	2018 (Paarl/Wellington) <span>$20</span> </h3>
+  <p>Ripe	black	cherry	and	cassis	fruit	with aromas	of	cedar	wood and	spice.
+   Flavours	of	blackcurrant,	liquorice	and	dark	chocolate	with	a long	finish.</p>
+  <br>
+  <br>
+  <h3> Ken	Forrester Reserve 2017 (Stellenbosch) ***½
+    <span>$16</span>
+  </h3>
+  <p> Soft,	ripe	merlot	with	added	Cabernet,	Franc,	cab	sauv	and	petit	verdot for
+body	and	structure.</p>
+  <br>
+  <br>
+  <h3> 1659	Natural	Sweet	Rosé NV (Western	Cape)
+ <span>$10</span>
+   </h3>
+  <p> Playful	aromas	of	sweet	strawberries	and	fresh	raspberries.	An	easy	drinking	wine,
+fruity	and	soft,	with	a	smooth	and	sweet	finish.</p>
+  <br>
+  <br>
+  <h2><i class="fa-solid fa-star-of-life"></i>  &nbsp; PLEASE	NOTE	THAT	VINTAGES	ARE	SUBJECT	TO	CHANGE.</h2>
+  <br>
+  <br>
+  <h3>White wines</h3>
+  <br>
+  <h3> Buitenverwachting	Buiten	Blanc	2021 (Constantia) ***½
+    <span>$10</span>
+  </h3>
+  <p> This	full	bodied	cuvee	offers	ripe	gooseberry	and	grassy	characters	with
+  slight	hints	of	tropical	fruit..</p>
+  <br>
+  <br>
+  <h3> Angels	Tears Moscato Chenin	natural	sweet	2021 (Western	Cape)
+   <span>$10</span>
+  </h3>
+  <p>This	darling	of	the	Angels	Tears	range	is	deliciously	fruity with	succulent	stone	fruit,
+    litchi	and	citrus,	enlivened	by	hints	of	floral	and	spicy	Muscat	notes.</p>
+  <br>
+  <br>
+  <h3>Fat	Bastard	2021 (various	areas) ***½
+    <span>$12</span>
+  </h3>
+  <p>Brilliantly	named	after	the	full,	rich	and	ripe	flavours	found	from	partial
+barrel	fermentation.</p>
+  <br>
+  <br>
+  <h3>Klein	Constantia	Sauvignon	Blanc	2021 (Constantia) ****
+    <span>$15</span>
+  </h3>
+  <p> Aromas	of	citrus	and	stone	fruit	fill	the	nose.	The	palate	is	richly	textured,
+fresh	and	complex	with	a	bold	minerality	– a	pure	expression	of	Sauvignon
+Blanc	with	a	long	crisp	flinty	conclusion.</p>
+  <br>
+  <br>
+  <h1>MÉTHODE	CAP	CLASSIQUE</h1>
+  <br>
+  <h3>Graham	Beck	Brut	NV	(Robertson) ****
+    <span>$15</span>
+  </h3>
+  <p>Light	yeasty	aromas,	good	fruit	on	the	nose	and	rich	creamy
+complexity	on the	palate.</p>
+  <br>
+  <br>
+  <h3>Proseco	– Casa	Farive	Cuvee	Brut	(Italy)
+<span>$18</span>
+  </h3>
+  <p>Dry	and	fresh	with	a	pleasantly	harmonic	and	persistent	finish.</p>
+
+      </li>
+      <li class="bar-menu show">
+        <hr>
+        <h1>Bar-Menu</h1>
+        <h2>STARTERS</h2>
+        <br>
+        <h3>PERI-PERI	CHICKEN	LIVERS <span>$11</span> </h3>
+        <p>Pan	fried	chicken	livers	in	a	homemade	PERI sauce.</p>
+        <br>
+        <h3>GYPSY	SPITS <span>$12</span> </h3>
+        <p>Button	mushrooms	wrapped	in	bacon,	crisped	under	the	grill	and	topped	with	garlic	butter.</p>
+        <br>
+        <h3>CALAMARI <span>$15</span> </h3>
+        <p>Grilled	calamari	tubes	with	a	lemon butter	sauce	OR cajun	style</p>
+        <br>
+        <br>
+
+        <h3><b>SOUP	OF	THE	DAY <span>$10</span> </b></h3>
+          <p>Please	ask	your	waiter	the	choice	of	today’s	soup.</p>
+          <br>
+          <br>
+          <h2>Salads</h2>
+          <p>Prices depend on sizes Large or Small</p>
+        <h3>Large $18</h3>
+        <h3>Small $12</h3>
+          <br>
+          <h3> BLUE	CHEESE	SALAD</h3>
+          <p> ICEBERG	LETTUCE,	tomato,	cucumber	and	onion	topped	with	a	light	blue	cheese	dressing
+        a	grated	blue	cheese.</p>
+          <br>
+          <br>
+          <h3> HOUSE MIXED	SALAD</h3>
+          <p>A	tossed	salad	with	ICEBERG	LETTUCE,	tomato,	onions,	cucumber,	avocado,	olives	and
+        Danish	feta	with	a	creamed salad	dressing</p>
+        <br>
+        <br>
+        <h3>CAESAR	SALAD</h3>
+        <p>ICEBERG	LETTUCE tossed	with	anchovies,	capers,	boiled	egg,	fried	bacon,	croutons,
+        shavings	of	parmesan	cheese	and	Caesar	mayonnaise	dressing</p>
+        <br>
+        <br>
+
+
+
+
+      </li>
+      <li class="bar-menu show">
+        <h2>Main Menu</h2>
+        <br>
+        <h3> STEAK	ROLL<span>$18</span> </h3>
+        <p>200g Fillet	Steak	Roll	TOPPED with	a	sauce	of	your	choice	and	chips.
+<b>Sauces</b>: black	pepper,	mushroom,	blue	cheese,	crispy	garlic, creamy	garlic	OR monkeygland.</p>
+        <br>
+        <h3>STEAK,	EGG	AND	CHIPS <span>$20</span> </h3>
+        <p>300g	Rump	Steak,	fried	egg	and	chips.</p>
+        <br>
+        <h3>GAMMON	STEAK<span>$20</span> </h3>
+        <p>Grilled	Gammon	steak	topped	with	a	honey	and	pineapple	glaze	and	chips.</p>
+        <br>
+        <h3>BEEF	STROGONOFF <span>$20</span> </h3>
+        <p> Strips	of	beef	fillet	cooked	in	cream,	paprika,	tomatoes	and	mushrooms,	served	on
+            rice	or	mashed	potato.</p>
+        <br>
+        <h3>CHICKEN	SCHNITZEL<span>$16</span> </h3>
+        <p> Duo	of	crumbed	chicken	breasts,	pan	fried	and	served	with	a	SEPARATE homemade	creamed
+Dijon	mustard	sauce	and	chips.</p>
+        <br>
+
+      </li>
+    </ul>
+  </div>
+ </section>
+      <!--menu end-->
+      <!--gallery--->
+      <section class="gallery-section">
+        <div class="container">
+          <div class="gallery">
+   <img src="img1/30.jpg" alt="Image 1">
+   <img src="img1/22.jpg" alt="Image 2">
+   <img src="img1/23.jpg" alt="Image 3">
+   <img src="img1/24.jpg" alt="Image 4">
+ </div>
+
+        </div>
+
+      </section>
+      <!--footer start-->
+      <footer class="footer">
+        <div class="container">
+
+
+        <div class="logo2" id="logo2" style="display: inline-block">
+          <img src="img1/logo.jpg" alt="">
+          <p><a href="https://www.facebook.com/wombleszimbabwe/"><i class="fa-brands fa-facebook"></i> &ensp;  KHAYA NYAMA WOMBLES</a></p>
+          <p><a href="https://www.instagram.com/wombles_zimbabwe/?hl=en"><i class="fa-brands fa-instagram"></i>&ensp; Wombles_Zimbabwe</a></p>
+
+        </div>
+        <div class="socials" id="socials" style="display: inline-block" >
+          <p>Wombles is a beautiful and soophisticated restaurant that offers
+          a unique dining experience centered around a warm welcoming community atmosphere</p>
+          <br>
+          <p>Connect with us on our social platforms </p>
+        </div>
+        <div class="add" id="add" style="display: inline-block" >
+          <h1>Address</h1>
+          <p><i class="fa-solid fa-location-dot">&emsp; </i>158 Enterprise road, Highlands, Harare, Zimbabwe</p>
+          <p> <i class="fa-solid fa-phone"> &emsp; </i>(024) 2497768</p>
+            <p> <i class="fa-solid fa-phone"> &emsp; </i>0772 336 224</p>
+          <p> <i class="fa-regular fa-envelope"> &emsp; </i> bookings@khayanyama.com</p>
+
+
+
+        </div>
+
+    </div>
+    <p class="copyright-text">copyright &copy; 2023 Websites by Patty</p>
+      </footer>
+      <!--footer end-->
+    <script src="main.js"></script>
+  </body>
+</html>
